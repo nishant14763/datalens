@@ -232,7 +232,6 @@ mindmap
             Basic Stats
             Patterns
             Outliers
-            Relationships
         AI Features
             Chat Assistant
             Insights
