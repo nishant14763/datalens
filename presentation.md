@@ -72,9 +72,10 @@ graph LR
     end
     
     subgraph Output
-        I --> VIZ[Visualizations]
-        I --> S[Summary]
-        I --> BL[Business Logic]
+        I --> VIZ[Overview]
+        I --> S[Profile & PBL]
+        I --> BL[Chat Assistant]
+        I --> EX[Export]
     end
 ```
 
