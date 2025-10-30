@@ -226,7 +226,7 @@ graph TD
 mindmap
     root((DataLens))
         Data Upload
-            CSV Support
+            CSV PDF Excel
             Validation
             Preview
         Analysis
@@ -235,9 +235,9 @@ mindmap
             Outliers
             Relationships
         AI Features
-            Q&A
+            Chat Assistant
             Insights
-            Recommendations
+            Export
         Business Logic
             Field Rules
             Validations
@@ -245,7 +245,6 @@ mindmap
         Visualization
             Charts
             Graphs
-            Heatmaps
 ```
 
 ---
