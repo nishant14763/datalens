@@ -66,7 +66,6 @@ graph LR
         B --> AI[Gemini Flash 2.5 Model]
         P --> AI
         O --> AI
-        R --> AI
         AI --> I[Generate Insights]
     end
     
