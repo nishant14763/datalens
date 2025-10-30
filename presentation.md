@@ -53,14 +53,14 @@ sequenceDiagram
 ```mermaid
 graph LR
     subgraph Input
-        U[Upload CSV]
+        U[Upload Datasets]
     end
     
     subgraph Analysis
-        V --> B[Basic Statistics]
-        V --> P[Pattern Analysis]
-        V --> O[Outlier Detection]
-        V --> R[Relationships]
+        U --> B[Basic Statistics]
+        U --> P[Pattern Analysis]
+        U --> O[Outlier Detection]
+        U --> R[Relationships]
     end
     
     subgraph AI Processing
