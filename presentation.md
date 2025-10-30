@@ -73,7 +73,7 @@ graph LR
         I --> VIZ[Overview]
         I --> S[Profiling & PBL ]
         I --> BL[Chat Assistant]
-        I --> BL[Export]
+        I --> EX[Export]
     end
 ```
 
