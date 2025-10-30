@@ -53,7 +53,7 @@ sequenceDiagram
 ```mermaid
 graph LR
     subgraph Input
-        U[Upload CSV] --> V[Validate Data]
+        U[Upload CSV]
     end
     
     subgraph Analysis
