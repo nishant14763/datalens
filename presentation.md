@@ -56,18 +56,16 @@ graph LR
         U[Upload Datasets]
     end
     
-    subgraph Analysis
+    subgraph Gemini Flash 2.5 Model
         U --> B[Basic Statistics]
         U --> P[Pattern Analysis]
         U --> O[Outlier Detection]
     end
     
-    subgraph AI Processing
-        B --> AI[Gemini Flash 2.5 Model]
-        P --> AI
-        O --> AI
-        AI --> I[Generate Insights]
-    end
+
+    B --> I[Generate Insights]
+    P --> I[Generate Insights]
+    O --> I[Generate Insights]
     
     subgraph Output
         I --> VIZ[Overview]
