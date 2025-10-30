@@ -64,7 +64,7 @@ graph LR
     end
     
     subgraph AI Processing
-        B --> AI[PaLM Model]
+        B --> AI[Gemini flash 2.5 Model]
         P --> AI
         O --> AI
         R --> AI
