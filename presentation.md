@@ -60,7 +60,6 @@ graph LR
         U --> B[Basic Statistics]
         U --> P[Pattern Analysis]
         U --> O[Outlier Detection]
-        U --> R[Relationships]
     end
     
     subgraph AI Processing
@@ -72,9 +71,10 @@ graph LR
     end
     
     subgraph Output
-        I --> VIZ[Visualizations]
-        I --> S[Summary]
-        I --> BL[Business Logic]
+        I --> VIZ[Overview]
+        I --> S[Profiling & PBL ]
+        I --> BL[Chat Assistant]
+        I --> BL[Export]
     end
 ```
 
